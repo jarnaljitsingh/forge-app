@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Forge — Daily disciplines, kept together</title>
+<meta name="description" content="Forge is the brotherhood app for Christian men building daily disciplines together. Build streaks that actually stick, walk it out with your brothers, encouragement — never shame." />
+<style>
+  :root{
+    --bg:#0E0F12; --raised:#14161A; --border:#2A2E37;
+    --ember:#FF5A1F; --ember-glow:#FF7A3D;
+    --text:#E7E9EC; --muted:#9BA1AD; --faint:#6B7280;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  header{padding:64px 24px 24px;text-align:center}
+  .mark{
+    width:88px;height:88px;border-radius:22px;margin:0 auto 24px;
+    background:radial-gradient(120% 120% at 50% 35%,#FF8A4D 0%,var(--ember) 45%,#D6400C 100%);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 12px 40px rgba(255,90,31,.35);
+  }
+  .mark svg{width:52px;height:52px}
+  h1{
+    font-size:54px;letter-spacing:2px;margin:8px 0 4px;font-weight:800;
+    text-transform:uppercase;
+  }
+  .tag{color:var(--muted);font-size:19px;margin:0 0 6px}
+  .sub{color:var(--faint);font-size:15px;margin:0}
+  .bullets{
+    max-width:520px;margin:40px auto 8px;padding:0;list-style:none;text-align:left;
+  }
+  .bullets li{
+    display:flex;gap:14px;align-items:flex-start;padding:14px 0;
+    border-bottom:1px solid var(--border);color:var(--text);font-size:16px;
+  }
+  .bullets li b{color:var(--text)}
+  .dot{color:var(--ember);font-size:20px;line-height:1.4;flex:none}
+  .links{margin:48px 0 16px;text-align:center}
+  .links a{
+    display:inline-block;margin:6px;padding:12px 22px;border-radius:12px;
+    text-decoration:none;font-weight:600;font-size:15px;
+    border:1px solid var(--border);color:var(--text);background:var(--raised);
+  }
+  .links a.primary{background:var(--ember);border-color:var(--ember);color:#120A06}
+  footer{padding:40px 24px 64px;text-align:center;color:var(--faint);font-size:14px}
+  footer a{color:var(--muted)}
+  @media(max-width:520px){h1{font-size:40px}}
+</style>
+</head>
+<body>
+  <header>
+    <div class="mark" aria-hidden="true">
+      <!-- anvil mark, charcoal knockout -->
+      <svg viewBox="0 0 24 24" fill="#1A1210" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 8.2h8.3v1.7c0 1.4-1.1 2.6-2.6 2.9l-.2 2.2h5.7c2.6 0 4.8-1.6 5.8-3.9l2-.6-.5-1.7-1.9.6c.1-.4.1-.8.1-1.2V7.4h-3.1v.9c0 1.7-1.4 3.1-3.1 3.1h-1.1V8.2h3.6V6.1H6.1l-.5-1.6H8V2.9H2.9l.9 2.9c-.5.2-1 .6-1.3 1.1V8.2z"/>
+        <path d="M6.5 15.6h6.5l.5 2.1H6z"/>
+        <path d="M4.5 18.4h11v2.2h-11z"/>
+      </svg>
+    </div>
+    <h1>Forge</h1>
+    <p class="tag">Daily disciplines, kept together.</p>
+    <p class="sub">The brotherhood app for Christian men. As iron sharpens iron.</p>
+  </header>
+
+  <div class="wrap">
+    <ul class="bullets">
+      <li><span class="dot">&#9670;</span><span><b>Build streaks that actually stick.</b> Check in on your daily disciplines in under 15 seconds.</span></li>
+      <li><span class="dot">&#9670;</span><span><b>Walk it out with your brothers.</b> Private groups where your men see your reps and cheer you on.</span></li>
+      <li><span class="dot">&#9670;</span><span><b>Encouragement, never shame.</b> A scripture each day and a tone built to lift, not condemn.</span></li>
+    </ul>
+
+    <div class="links">
+      <a class="primary" href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="mailto:support@forgehq.app">Contact Support</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Forge. All rights reserved.<br/>
+    Questions? <a href="mailto:support@forgehq.app">support@forgehq.app</a></p>
+  </footer>
+</body>
+</html>
